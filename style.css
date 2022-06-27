@@ -1,0 +1,163 @@
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+:root {
+    --my-blue : #4c86a8;
+    --my-gray : #E1E5F2;
+    --light-dark : #022B3A;
+    --total-white : #ffffff;
+}
+
+html {
+    overflow-x: hidden !important;
+}
+
+body {
+    overflow-x: hidden !important;
+    background-color: var(--my-blue);
+}
+
+.sidebar{
+    width: 100%;
+    height: 100vh;
+    background-color:#022B3A;
+    
+}
+
+.title{
+  color: #022B3A;
+}
+
+.card-text{
+  color: #4c86a8;
+}
+
+h1, h2, h3, h4, p {
+    color: var(--total-white);
+}
+
+.work{
+    color:black;
+    text-align: center;
+}
+
+.sidebar-list{
+    background-color: transparent;
+    color: white;
+    border-bottom: solid 1px var(--my-blue);
+}
+.sidebar-list:hover{
+    color: var(--my-blue);
+   
+}
+
+.social-icon{
+    color:var(--total-white);
+}
+.social-icon:hover{
+    color: var(--my-blue);
+}
+
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image:  url(/img/home.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  
+
+  .custom-card{
+    border: none;
+    background-color: transparent;
+  
+
+  }
+
+  .custom-card .card-title{
+      color: var(--total-white);
+  }
+ 
+/* cards price */
+section.pricing {
+    background: var(--my-blue);
+  }
+  
+  .pricing .card {
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .pricing hr {
+    margin: 1.5rem 0;
+  }
+  
+  .pricing .card-title {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+  }
+  
+  .pricing .card-price {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .pricing .card-price .period {
+    font-size: 0.8rem;
+  }
+  
+  .pricing ul li {
+    margin-bottom: 1rem;
+  }
+  
+  .pricing .text-muted {
+    opacity: 0.7;
+  }
+  
+  .pricing .btn {
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    opacity: 0.7;
+    transition: all 0.2s;
+  }
+  
+  /* Hover Effects on Card */
+  
+  @media (min-width: 992px) {
+    .pricing .card:hover {
+      margin-top: -.25rem;
+      margin-bottom: .25rem;
+      box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    }
+    .pricing .card:hover .btn {
+      opacity: 1;
+    }
+  }
+
+ .bg-dark{
+  color:var(--light-dark);
+ }
+ 
+ a{
+   color:black;
+ }
+
+ .masthead_2 {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('https://picsum.photos/1920/1080');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
